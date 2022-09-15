@@ -1,0 +1,20 @@
+
+
+.container-site{
+    width: 90%;
+    margin: auto;
+}
+.box1{
+     position: relative;
+}
+
+.content img{
+    width: 100%;
+}
+.content .box2 .overlay{
+    background: rgba(0, 0, 0, 0.492);
+    position: absolute;
+    top: 56px;
+    
+    
+}
