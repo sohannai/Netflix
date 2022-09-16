@@ -4,7 +4,7 @@
     width: 90%;
     margin: auto;
 }
-.box1{
+.box2{
      position: relative;
 }
 
@@ -14,7 +14,16 @@
 .content .box2 .overlay{
     background: rgba(0, 0, 0, 0.492);
     position: absolute;
-    top: 56px;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    opacity: 0;
     
-    
+}
+.content .box1 img:hover .overlay{
+    opacity: 1;
 }
